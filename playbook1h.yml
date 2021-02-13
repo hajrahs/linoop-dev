@@ -5,4 +5,10 @@
     - name: Restarting SSHD 
       service: 
         name: sshd 
-        state: restarted 
+        state: restarted
+      
+      name: Restart httpd 
+      service:
+        name: httpd
+        state: restarted
+...           
