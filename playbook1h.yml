@@ -7,8 +7,8 @@
         name: sshd 
         state: restarted
       
-      name: Restart httpd 
+      name: Restart dhcpd 
       service:
-        name: httpd
+        name: dhcpd 
         state: restarted
 ...           
